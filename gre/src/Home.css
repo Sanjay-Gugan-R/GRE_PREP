@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    column-gap: 10%;
+    margin-left: 0%;
+}
+.nav a{
+    margin-top: 2.5%;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: burlywood;
+    transition: ease-out 1s;
+    text-decoration: underline;
+}
+.nav img{
+    width: 5%;
+    height: 1%;
+}
+.intro{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 8%;
+}
+.intro h1{
+    font-size: 4vw;
+}
+.intro p{
+    font-size: 2vw;
+}
+.info{
+    margin-top: 10%;
+    background-image: url('https://png.pngtree.com/background/20230424/original/pngtree-dark-image-of-a-female-writing-with-glasses-picture-image_2456014.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10%;
+    padding-top: 12%;
+    opacity: 0.8;
+}
+.info p{
+    font-size: 4.5vw;
+    color: black;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    margin-top: 2%;
+}
+
+.how{
+    margin-top: 20%;
+    color: aliceblue;
+    background-image: url('https://wallpaperaccess.com/full/1471684.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    opacity: 0.8;
+}
+.how h1{
+    font-size: 4vw;
+    margin-left: 2%;
+}
+.how p{
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.learn{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15%;
+    background-image: url('https://wallpaperaccess.com/full/1426870.png');
+    padding-top: 5%;
+    padding-bottom: 5%;
+    opacity: 0.8;
+}
+.learn h1{
+    
+}
+.learn p{
+    margin-top: 5%;
+    font-size: 2vw;
+}
+
+.learn button{
+    margin-top: 5%;
+    padding: 0.5% 5%;
+    background-color:forestgreen;
+    font-size: larger;
+}
+
+.learn button:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 2px 5px seagreen;
+}
