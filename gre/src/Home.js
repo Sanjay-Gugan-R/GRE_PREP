@@ -1,13 +1,18 @@
 import react from 'react';
+import { useNavigate } from "react-router-dom";
 import './Home.css';
 
 function Home(){
+    const navi = useNavigate();
+    function handleclick() {
+        navi("./Practice.js");
+    }
     return(
        <div className='main'>
          <div className='nav'>
             <img src={require('./images/ilogo.png')}></img>
-            <a href="#">Home</a>
-            <a href="#">Practice</a>
+            <a href="/">Home</a>
+            <a href="./Practice.js">Practice</a>
             <a href="#">Test</a>
          </div>
          <div className='intro'>
@@ -28,7 +33,7 @@ function Home(){
          <div className='learn'>
             <h1>WHAT ARE YOU WAITING FOR?</h1>
             <p>Start learning words today!</p>
-            <button>Start learning</button>
+            <button onClick={handleclick}>Start learning</button>
          </div>
          <div className='foot'>
             

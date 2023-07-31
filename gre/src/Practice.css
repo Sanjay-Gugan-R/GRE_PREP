@@ -1,0 +1,28 @@
+.total{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.total .card{
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+}
+.total .card a{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.total .card:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px grey;
+    transition: ease-in 0.5s;
+    cursor: pointer;
+}
+.total .card .btn.btn-primary{
+    background-color: forestgreen;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+}
