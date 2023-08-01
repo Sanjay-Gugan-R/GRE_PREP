@@ -1,15 +1,33 @@
 body{
     background-color: black;
 }
+@keyframes history_reveal {
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0.9;
+    }
+}
+@keyframes move{
+    50%{
+        margin-bottom: 5%;
+    }
+    100%{
+        margin-top: 5%;
+    }
+}
 .nav{
     display: flex;
     column-gap: 10%;
     margin-left: 0%;
+    animation: history_reveal 2s;
 }
 .nav a{
     margin-top: 2.5%;
     color: white;
     text-decoration: none;
+    font-size: 1.1vw;
 }
 .nav a:hover{
     color: burlywood;
@@ -24,6 +42,7 @@ body{
     color: aliceblue;
     text-align: center;
     margin-top: 8%;
+    animation: move 3s;
 }
 .intro h1{
     font-size: 4vw;
@@ -40,6 +59,7 @@ body{
     padding-bottom: 10%;
     padding-top: 12%;
     opacity: 0.8;
+    animation: history_reveal 2s;
 }
 .info p{
     font-size: 4.5vw;
@@ -60,6 +80,7 @@ body{
     padding-bottom: 10%;
     padding-top: 5%;
     opacity: 0.8;
+    animation: history_reveal 2s;
 }
 .how h1{
     font-size: 4vw;
