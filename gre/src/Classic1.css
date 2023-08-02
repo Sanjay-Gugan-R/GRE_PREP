@@ -1,0 +1,32 @@
+#cart{
+    margin-top: 30%;
+    height: 20vw;
+}
+#cart-body p,a{
+    margin-top: 10%;
+}
+#cart-title{
+    font-size: xx-large;
+}
+#next{
+    position: relative;
+    left: 35%;
+}
+#meaning{
+    margin-left: 8%;
+}
+.y{
+    display: none;
+}
+.stest{
+    margin-top: 10%;
+    color: aliceblue;
+}
+.stest ul{
+    text-align: left;
+    margin-left: 37%;
+}
+.stest p{
+    margin-top: 5%;
+    margin-right: 17%;
+}

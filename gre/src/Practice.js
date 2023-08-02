@@ -16,7 +16,7 @@ function Practice() {
                     <div class="card-body">
                         <h5 class="card-title">Classic I</h5>
                         <p class="card-text">Test your Fundamentals</p>
-                        <a href="#" class="btn btn-primary">Give a Try</a>
+                        <a href="./Classic1.js" class="btn btn-primary">Give a Try</a>
                     </div>
                 </div>
             </div>
